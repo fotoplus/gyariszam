@@ -25,6 +25,12 @@ if(
 	<button type="submit">Mutasd</button>
 	<a class="vissza" href="<?php echo URL_PREFIX; ?>/">Vissza</a>
 </form>
+
+<script>
+	document.getElementById('product').focus();
+</script>
+
+
 <?php
 
 $show = false;

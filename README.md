@@ -1,9 +1,3 @@
-# gyariszam
-Termékekhez lehet gyáriszámokat párosítani
-
-## Függőségek
-PHP 7.4+
-MySQL 8.0+
 
 ## Használat
 
@@ -38,3 +32,7 @@ Egyéb esetben rákereshetünk vonalkód vagy cikkszám alapján egy termékre, 
 1. megnyomjuk a sor végén a zöld "Törlés" gombot
 2. a gomb prisora vált, és ellenőrzésképp meg kell nyomni újra, ha tényleg ezt akarjuk törölni.
 
+
+## Függőségek
+PHP 7.4+
+MySQL 8.0+

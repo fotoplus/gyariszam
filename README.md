@@ -8,6 +8,8 @@ A "Belépés" után 3 lehetőség közül választhatunk:
 - Gyáriszámok mutatása
 - Megkeresi a terméket, hogy kitörölöhesd
 
+A felhasznló és/vagy telephely váltáshoz kattints a nevedre.
+
 ### Gyáriszám hozzáadása termékekhez
 1. Olvassuk be a termék vonalkódját vagy írjuk be a cikkszámát.
 2. Nyomjuk meg az "Ez a termék" gombot.

@@ -147,6 +147,11 @@ else:
 				}
 			}
 			
+			if(substr($product['ACIKK'], 0, 3) == '599') {
+				$sn=str_replace('%', '', $sn);
+			}
+
+			$sn=str_replace(']C1', '', $sn);
 
 
 			// Megjelenítjük a beolvasott és a korrigált gyáriszámot ellenőrzésre
@@ -169,7 +174,7 @@ else:
 					<div class="error">Ez a gyáriszám már szerepel az adatbázisban!</div>
 				<?php endif; ?>
 				<?php if ($is_ean): ?>
-					<div class="error">Ez a mondjuk a termék vonalkódja...</div>
+					<div class="error">Ez mondjuk a termék vonalkódja...</div>
 				<?php endif; ?>
 
 			</div>
